@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(img/bg-intro-desktop.png);
+  background-image: url(bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
 }
 
@@ -58,7 +58,7 @@ input {
   padding: 10px;
 }
 input .input:invalid {
-  background-image: url(./img/icon-error.svg);
+  background-image: url(/icon-error.svg)
   background-repeat: no-repeat;
   background-position-x: 95%;
 }
@@ -84,7 +84,7 @@ span {
 @media screen and (max-width:900px) {
   
   body {
-    background-image: url(img/bg-intro-desktop.png);
+    background-image: url(/bg-intro-mobile.png);
     background-color: hsl(0, 100%, 74%);
   }
   main {
