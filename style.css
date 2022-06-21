@@ -77,15 +77,11 @@ h5 {
 }
 
 
-input .input:invalid {
-<<<<<<< HEAD
-  background-image: url(./icon-error.svg);
-=======
-  background-image: url(/icon-error.svg)
->>>>>>> cf3f6bd4fd4be4d66ecfae1223de00e185a7983b
+/* input .input:invalid{
+  background-image: url(icon-error.svg)
   background-repeat: no-repeat;
   background-position-x: 95%;
-}
+} */
 .submit {
   background-color: hsl(154, 59%, 51%);
   justify-content: center;
@@ -108,11 +104,7 @@ span {
 @media screen and (max-width:1000px) {
   
   body {
-<<<<<<< HEAD
     background-image: url(bg-intro-desktop.png);
-=======
-    background-image: url(/bg-intro-mobile.png);
->>>>>>> cf3f6bd4fd4be4d66ecfae1223de00e185a7983b
     background-color: hsl(0, 100%, 74%);
   }
   main {
